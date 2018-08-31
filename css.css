@@ -64,7 +64,7 @@ button{
     border-radius:0px 5px 5px 0px;
     height:49px;
     padding:5px;
-    margin: 3px -5px;
+    margin: 3px -6px;
     border:9px solid rgba(61, 172, 65, 0.99);
     background-color: rgba(61, 172, 65, 0.99);
     color: white;
@@ -75,9 +75,10 @@ button{
 
 /*the list holding the list of books*/
 li{
-   margin: 2% 0%;
+    margin: 2% 0%;
     padding: 2%;
     border-left:5px solid #ccc;
+    height:30%;
 }
 li:hover{
     border-left:5px solid rgba(61, 172, 65, 0.99);
