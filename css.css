@@ -38,8 +38,17 @@ ul{
 
 
 
-/* the input search and add styled together */
-input{
+/* the input search in the div */
+div input{
+    width: 50%;
+    border-radius: 5px;
+    border:1px solid #959494;
+    height:37px;
+    padding: 5px;
+    margin: 3px 0px;
+}
+/* this styling is for the input in the form tag that hass the value ADD..*/
+form input{
     width: 50%;
     border-radius: 5px 0px 0px 5px;
     border:1px solid #959494;
@@ -55,7 +64,7 @@ button{
     border-radius:0px 5px 5px 0px;
     height:49px;
     padding:5px;
-    margin: 3px 0px;
+    margin: 3px -5px;
     border:9px solid rgba(61, 172, 65, 0.99);
     background-color: rgba(61, 172, 65, 0.99);
     color: white;
@@ -72,7 +81,7 @@ li{
 }
 li:hover{
     border-left:5px solid rgba(61, 172, 65, 0.99);
-    transition: border-left 0.5s linear;
+    transition: border-left 0.2s linear;
 }
 
 
@@ -99,7 +108,8 @@ section div form{
     color: white;
     border-radius:5px;
     border: 1px solid rgba(61, 172, 65, 0.99);
-    margin-left: 13%;
+    float: right;
+    clear: both;
 }
 .delete:hover{
     cursor:context-menu;
