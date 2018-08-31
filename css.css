@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:cursive, monospace , sans-serif, serif ,fantasy;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+/* section tag stylings */
+section{
+    height:auto;
+    width:80%;
+    margin:2% 10%;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*the div in the section tag holding the class header attribute. the child of the section tag*/
+.header{
+    background-color:#ccc;
+    text-align:center;
+    padding: 3% 0px;
+    border-radius:10px 10px 0px 0px;
+}
+
+
+
+
+/* the unordered list holding the list of books*/ 
+ul{
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+/* the input search and add styled together */
+input{
+    width: 50%;
+    border-radius: 5px 0px 0px 5px;
+    border:1px solid #959494;
+    height:37px;
+    padding: 5px;
+    margin: 3px 0px;
+}
+
+
+
+/*the button with the content add */
+button{
+    border-radius:0px 5px 5px 0px;
+    height:49px;
+    padding:5px;
+    margin: 3px 0px;
+    border:9px solid rgba(61, 172, 65, 0.99);
+    background-color: rgba(61, 172, 65, 0.99);
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/*the list holding the list of books*/
+li{
+   margin: 2% 0%;
+    padding: 2%;
+    border-left:5px solid #ccc;
+}
+li:hover{
+    border-left:5px solid rgba(61, 172, 65, 0.99);
+    transition: border-left 0.5s linear;
+}
+
+
+
+/* the form tag holding the add input and the button that hass the value add*/
+section div form{
+    text-align:center;
+}
+
+
+
+
+/* the second child of the section tag second div that holds all the book list*/
+.book-list{
+    padding: 3% 0px;
+}
+
+
+
+/* the span tag with the value delete*/
+.delete{
+    background-color:rgba(61, 172, 65, 0.99); 
+    padding: 2px;
+    color: white;
+    border-radius:5px;
+    border: 1px solid rgba(61, 172, 65, 0.99);
+    margin-left: 13%;
+}
+.delete:hover{
+    cursor:context-menu;
+}
