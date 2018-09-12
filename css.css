@@ -88,7 +88,8 @@ li{
 }
 li:hover{
     border-left:5px solid rgba(61, 172, 65, 0.99);
-    transition: border-left 0.2s linear;
+    transition: border-left 0.2s linear; 
+    
 }
 
 
@@ -121,4 +122,6 @@ section div form{
 }
 .delete:hover{
     cursor:context-menu;
+    background: #363434;
+    color: white;
 }
