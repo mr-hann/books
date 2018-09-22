@@ -47,7 +47,7 @@ const inputSearch=document.querySelector('input[name="search"]');
 inputSearch.addEventListener('keyup', function(e){
         const inputValue = e.target.value;
         const li = document.getElementsByTagName('li');
-    Array.from(li).forEach(function(li){
+        Array.from(li).forEach(function(li){
         const inputMain=inputValue.toLowerCase();
         const lis=li.firstElementChild.textContent;
         if (lis.toLowerCase().indexOf(inputMain)!=-1){
